@@ -27,5 +27,14 @@
 
         <Border Grid.Row="1" Grid.Column="0" Grid.RowSpan="2" Grid.ColumnSpan="2" BorderBrush="Black" BorderThickness="1" Background="MediumPurple" Margin="5"/>
         <Label Content="3" Grid.Row="1" Grid.Column="0" Grid.RowSpan="2" Grid.ColumnSpan="2" FontSize="24" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+
+        <Border Grid.Row="1" Grid.Column="2" Grid.RowSpan="2" BorderBrush="Black" BorderThickness="1" Background="LightGreen" Margin="5"/>
+        <Label Content="4" Grid.Row="1" Grid.Column="2" Grid.RowSpan="2" FontSize="24" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+
+        <Border Grid.Row="1" Grid.Column="3" BorderBrush="Black" BorderThickness="1" Background="Orange" Margin="5"/>
+        <Label Content="5" Grid.Row="1" Grid.Column="3" FontSize="24" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+
+        <Border Grid.Row="2" Grid.Column="3" BorderBrush="Black" BorderThickness="1" Background="Cyan" Margin="5"/>
+        <Label Content="6" Grid.Row="2" Grid.Column="3" FontSize="24" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center"/>
     </Grid>
 </Window>
