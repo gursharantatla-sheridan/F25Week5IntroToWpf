@@ -41,5 +41,12 @@ namespace F25Week5IntroToWpf
         {
             txtFirstname.Background = Brushes.White;
         }
+
+        private void btnShowGridWin_Click(object sender, RoutedEventArgs e)
+        {
+            GridExample win = new GridExample();
+            //win.Owner = this;
+            win.ShowDialog();
+        }
     }
 }
