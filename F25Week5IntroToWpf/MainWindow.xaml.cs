@@ -46,6 +46,7 @@ namespace F25Week5IntroToWpf
         {
             GridExample win = new GridExample();
             //win.Owner = this;
+            //this.Close();
             win.ShowDialog();
         }
     }
