@@ -8,7 +8,7 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         <Button x:Name="btnShow" Content="Show" HorizontalAlignment="Center" Margin="0,144,0,0" VerticalAlignment="Top" Height="39" Width="76" Click="btnShow_Click"/>
-        <TextBox x:Name="txtFirstname" HorizontalAlignment="Left" Margin="217,155,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtFirstname" HorizontalAlignment="Left" Margin="217,155,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" GotFocus="txtFirstname_GotFocus" LostFocus="txtFirstname_LostFocus" />
         <Label Content="Enter your firstname" HorizontalAlignment="Left" Margin="100,151,0,0" VerticalAlignment="Top"/>
 
     </Grid>
